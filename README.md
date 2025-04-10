@@ -1,6 +1,6 @@
 # Mini Shell in C
 
-This project is a simple shell program written in C that simulates basic features of a Unix shell. It was developed as part of the Operating Systems course at the Hebrew University.
+This project is a simple shell program written in C that simulates basic features of a Unix shell. It was developed as part of the Operating Systems course at the Tel-Aviv University.
 
 The shell supports executing programs, background processes, single piping, and input/output redirection, using low-level system calls like `fork`, `execvp`, `pipe`, `dup2`, and `sigaction`. It handles signals properly and prevents zombie processes.
 
